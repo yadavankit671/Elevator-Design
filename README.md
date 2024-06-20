@@ -29,4 +29,3 @@ This project simulates a basic elevator system using Java. It handles requests f
 ### Notes
 > This implementation is kept simplified. We can customize and integrate more complex logic, handling multiple elevators, door operations and error conditions.
 
-### Project by - Ankit Kumar Yadav
