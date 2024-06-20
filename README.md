@@ -20,14 +20,11 @@ This project simulates a basic elevator system using Java. It handles requests f
 ## How to Run
 **Compilation**: <br> To compile the source file, use the following command: 
 ```
-Java
-
 > javac App.java
 ```
 **Execution**:<br>Run the compiled App class to start the program.
-```
-Java
 
+```
 > java App
 ```
 
