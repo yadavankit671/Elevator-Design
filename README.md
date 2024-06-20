@@ -6,7 +6,8 @@ This project simulates a basic elevator system using Java. It handles requests f
 - <b>Prioritized Queues: </b>Uses priority queues to manage and prioritize requests based on the direction of travel.
 - <b>Efficient Operation: </b>Optimizes elevator movement by grouping requests in the same direction together.
 - <b>Inside/Outside Handling: </b>Differentiates between requests from inside and outside the elevator, ensuring pickup from the current floor if requested from outside.
-<br>
+
+
 ## Classes ##
 * `Request`: Represents a single elevator request with details about the requester's current floor, desired floor, direction, and location.
 * `Elevator`: 
