@@ -1,5 +1,7 @@
 # Elevator Design in Java #
 This project simulates a basic elevator system using Java. It handles requests from both inside and outside the elevator, prioritizing requests based on the elevator's current direction and the requested floors.
+# Elevator Design in Java #
+This project simulates a basic elevator system using Java. It handles requests from both inside and outside the elevator, prioritizing requests based on the elevator's current direction and the requested floors.
 
 ## Features ##
 - <b>Request Handling: </b> Accepts requests with details like current floor, desired floor, direction (UP/DOWN), and location (INSIDE/OUTSIDE).
