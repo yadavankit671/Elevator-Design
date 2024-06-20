@@ -17,6 +17,20 @@ This project simulates a basic elevator system using Java. It handles requests f
     - Implements the `run` method to process all queued requests efficiently.
 * `App`: Provides a basic simulation of the elevator system with sample requests.
 
+## How to Run
+**Compilation**: <br> To compile the source file, use the following command: 
+```
+Java
+
+> javac App.java
+```
+**Execution**:<br>Run the compiled App class to start the program.
+```
+Java
+
+> java App
+```
+
 ## How It Works ##
 1. **Initialization**: The elevator starts at a specified floor and is initially IDLE.
 2. **Request Submission**: Requests are created and submitted to the elevator using `sendUpRequest` and `sendDownRequest`.
