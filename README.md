@@ -35,7 +35,22 @@ java App
     - If the elevator is going UP or IDLE, it processes UP requests first, then DOWN requests.
     - If the elevator is going DOWN, it processes DOWN requests first, then UP requests.
 5. **Movement Simulation**: The elevator's current floor is updated to the desired floor of each processed request, simulating movement.
-
+## Sample Output
+```
+Append up request going to floor 5.
+Append up request going to floor 3.
+Append down request going to floor 4.
+Append down request going to floor 0.
+Append down request going to floor 1.
+Append down request going to floor 2.
+Processing up requests. Elevator stopped at floor 3.
+Processing up requests. Elevator stopped at floor 5.
+Processing down requests. Elevator stopped at floor 4.
+Processing down requests. Elevator stopped at floor 2.
+Processing down requests. Elevator stopped at floor 1.
+Processing down requests. Elevator stopped at floor 0.
+Finished all requests.
+```
 ### Notes
 > This implementation is kept simplified. We can customize and integrate more complex logic, handling multiple elevators, door operations and error conditions.
 
